@@ -155,7 +155,7 @@ with c4:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ================= LOAD MODEL =================
-model_data = joblib.load("crop_recommendation_model.pkl")
+model_data = joblib.load("crop/crop_recommendation_model.pkl")
 
 pipeline = model_data["pipeline"]
 label_encoder = model_data["label_encoder"]
